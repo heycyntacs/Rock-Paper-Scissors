@@ -5,7 +5,7 @@ let computer;
 let playerCounter = 0;
 let computerCounter = 0;
 
-function playerFunction() {
+function playerSelection() {
     let input;
     do {
         input = prompt('Rock Paper Scissors?')
@@ -22,7 +22,7 @@ function playerFunction() {
     return player = 2;
 }
 
-function computerFunction(){
+function computerSelection(){
         let randomNumber =  Math.floor(Math.random() * 3);
         return computer = randomNumber;
 }
@@ -72,8 +72,8 @@ function playRound(player, computer) {
 
 function game() {
     do {
-        playerFunction();
-        computerFunction();
+        playerSelection();
+        computerSelection();
         playRound(player,computer);
         console.log(player, computer, play);
     } while(playerCounter !== 5 && computerCounter !== 5);
