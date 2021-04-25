@@ -15,6 +15,7 @@ input.forEach(button => {
             playerCounter = 0;
             computerCounter = 0;
             para.textContent = `Player: ${playerCounter} Computer: ${computerCounter}`;
+
         }
         else if (computerCounter === 5){
             alert('Computer wins the game!');
@@ -29,6 +30,7 @@ input.forEach(button => {
 function computerSelection() {
     return arr[Math.floor(Math.random() * arr.length)];
 }
+
 
 function playRound (player, computer) {
     computer = computerSelection().toLowerCase();
