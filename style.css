@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.select {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+}
+
+.select button {
+    height: 200px;
+    width: 200px;
+    font-size: 2rem;
+}
+
+.select p {
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+}
