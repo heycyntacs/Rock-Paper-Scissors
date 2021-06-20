@@ -51,4 +51,3 @@ function playRound (player, computer) {
 const div = document.querySelector('.select');
 const para = document.createElement('p');
 div.appendChild(para);
-console.log('Working');
