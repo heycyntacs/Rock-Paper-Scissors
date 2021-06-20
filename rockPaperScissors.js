@@ -31,7 +31,6 @@ function computerSelection() {
     return arr[Math.floor(Math.random() * arr.length)];
 }
 
-
 function playRound (player, computer) {
     computer = computerSelection().toLowerCase();
     if (player === computer) alert('Draw!');
